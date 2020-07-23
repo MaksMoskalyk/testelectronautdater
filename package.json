@@ -12,7 +12,8 @@
     "start": "electron .",
     "build": "electron-builder build --win --publish never",
     "buildmac": "electron-builder build --mac--publish never",
-    "deploy": "electron-builder build --win --publish always"
+    "deploy": "electron-builder build --win --publish always",
+    "deploymac": "electron-builder build --mac --publish always"
   },
   "author": "",
   "license": "ISC",
