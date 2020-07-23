@@ -33,18 +33,18 @@
       "target": "squirrel"
     },
     "squirrelWindows": {
-      "iconUrl": "https://raw.githubusercontent.com/megahertz/electron-simple-updater/master/example/build/icon.ico"
+      "iconUrl": "https://github.com/MaksMoskalyk/testelectronautdater/blob/master/build/icon.ico"
     }
   },
   "updater": {
-    "url": "https://raw.githubusercontent.com/megahertz/electron-simple-updater/master/example/updates.json"
+    "url": "https://github.com/MaksMoskalyk/testelectronautdater/blob/master/updates.json"
   },
   "engines": {
     "node": ">=6.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/megahertz/electron-simple-updater.git"
+    "url": "https://github.com/MaksMoskalyk/testelectronautdater.git"
   },
   "dependencies": {
     "electron-simple-updater": "^2.0.0-beta.1"
