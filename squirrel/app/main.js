@@ -9,6 +9,7 @@ const updater                = require('electron-simple-updater');
 updater.init({
   checkUpdateOnStart: true,
   autoDownload: false,
+  url: "https://github.com/MaksMoskalyk/testelectronautdater/blob/master/squirrel/updates.json"
 });
 
 let mainWindow;
