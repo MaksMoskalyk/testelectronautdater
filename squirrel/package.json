@@ -33,11 +33,11 @@
       "target": "squirrel"
     },
     "squirrelWindows": {
-      "iconUrl": "https://github.com/MaksMoskalyk/testelectronautdater/electron-simple-updater/master/example/build/icon.ico"
+      "iconUrl": "https://github.com/MaksMoskalyk/testelectronautdater/blob/master/squirrel/build/icon.ico"
     }
   },
   "updater": {
-    "url": "https://github.com/MaksMoskalyk/testelectronautdater/electron-simple-updater/master/example/updates.json"
+    "url": "https://github.com/MaksMoskalyk/testelectronautdater/blob/master/squirrel/updates.json"
   },
   "engines": {
     "node": ">=6.0"
