@@ -1,7 +1,7 @@
 {
   "name": "simple-updater-example",
   "productName": "Simple Updater Example",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Example of using electron-simple-updater",
   "main": "app/main.js",
   "scripts": {
@@ -18,8 +18,6 @@
   "build": {
     "appId": "megahertz.electron-simple-updater-example",
     "files": [
-      "!publisher.json",
-      "!updates.json"
     ],
     "linux": {
       "category": "Development",
@@ -37,7 +35,7 @@
     }
   },
   "updater": {
-    "url": "https://github.com/MaksMoskalyk/testelectronautdater/blob/master/squirrel/updates.json"
+    "url": "https://raw.githubusercontent.com/MaksMoskalyk/testelectronautdater/master/updates/win32-x64-prod.json"
   },
   "engines": {
     "node": ">=6.0"
