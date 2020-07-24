@@ -1,0 +1,58 @@
+{
+  "name": "simple-updater-example",
+  "productName": "Simple Updater Example",
+  "version": "0.0.1",
+  "description": "Example of using electron-simple-updater",
+  "main": "app/main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron .",
+    "dist": "electron-builder",
+    "publish": "publish",
+    "release": "npm run dist && npm run publish"
+  },
+  "author": "Merlin",
+  "license": "MIT",
+  "private": true,
+  "overwrite": true,
+  "build": {
+    "appId": "megahertz.electron-simple-updater-example",
+    "files": [
+      "!publisher.json",
+      "!updates.json"
+    ],
+    "linux": {
+      "category": "Development",
+      "publish": false,
+      "target": "AppImage"
+    },
+    "mac": {
+      "category": "public.app-category.developer-tools"
+    },
+    "win": {
+      "target": "squirrel"
+    },
+    "squirrelWindows": {
+      "iconUrl": "https://github.com/MaksMoskalyk/testelectronautdater/electron-simple-updater/master/example/build/icon.ico"
+    }
+  },
+  "updater": {
+    "url": "https://github.com/MaksMoskalyk/testelectronautdater/electron-simple-updater/master/example/updates.json"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksMoskalyk/testelectronautdater.git"
+  },
+  "dependencies": {
+    "electron-simple-updater": "^2.0.0-beta.1"
+  },
+  "devDependencies": {
+    "electron": "*",
+    "electron-builder": "*",
+    "electron-simple-publisher": "*",
+    "electron-builder-squirrel-windows": "*"
+  }
+}
