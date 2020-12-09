@@ -1,7 +1,7 @@
 {
   "win32-x64-prod": {
-    "update": "https://github.com/MaksMoskalyk/testelectronautdater/releases/download/win32-x64-prod-0.0.3-beta.1",
-    "install": "https://github.com/MaksMoskalyk/testelectronautdater/releases/download/win32-x64-prod-0.0.3-beta.1/Simple.Updater.Example.Setup.0.0.3-beta.1.exe",
-    "version": "0.0.3-beta.1"
+    "update": "https://github.com/MaksMoskalyk/testelectronautdater/releases/download/win32-x64-prod-0.0.3",
+    "install": "https://github.com/MaksMoskalyk/testelectronautdater/releases/download/win32-x64-prod-0.0.3/Simple.Updater.Example.Setup.0.0.3.exe",
+    "version": "0.0.3"
   }
 }
